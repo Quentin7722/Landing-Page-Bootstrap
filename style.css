@@ -16,6 +16,7 @@ a {
     brightness(106%) contrast(101%);
   height: 30px;
   width: 30px;
+  transition: 0.5s ease-in-out;
 }
 .navbar-brand {
   font-family: "Lobster", cursive;
@@ -27,6 +28,16 @@ a {
 .hero__tel {
   background-color: rgb(9, 185, 9);
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.hero__tel:hover {
+  background-color: white;
+  cursor: pointer;
+  color: rgb(9, 185, 9);
+}
+.hero__tel:hover .icon--tel {
+  filter: invert(44%) sepia(98%) saturate(1035%) hue-rotate(84deg)
+    brightness(96%) contrast(102%);
 }
 .overlay {
   height: 100%;
