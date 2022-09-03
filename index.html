@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabricant de stores et menuiseries</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true">
+
+    <!-- HEADER -->
+
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top" id="nav">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-0 h1 d-flex align-items-center fs-2" href="#"><img
+                        class="me-2 navbar-brand__icon" src="/assets/saw.svg" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">La
+                    Fabrique </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Acceuil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Qui sommes-nous ?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#produits">Nos produits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#fabrications">Nos réalisations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#points">Nos points de vente</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Demander un devis</a>
+                            </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero position-relative min-vh-100" id="home">
+        <div class="overlay">
+        </div>
+        <video autoplay muted loop id="myVideo" class="h-100 w-100">
+            <source src="./assets/carpentry.mp4" type="video/mp4">
+        </video>
+        <div class="hero__content text-center text-white d-flex flex-column align-items-center w-100 p-5">
+            <h1 class="text-uppercase fw-bold">Votre fabricant de stores et de menuiseries depuis 1979
+                dans
+                la région
+                parisienne
+            </h1>
+            <span class="hero__tel py-1 px-3 my-1 rounded-pill fs-5 fw-bold"><img
+                    class="icon icon--tel p-1 d-inline-block align-text-top" src="/assets/phone.svg" alt="" width="30"
+                    height="24"> 04 89
+                65 10 29</span>
+            <small>Fabrication 100% française et artisanale</small>
+            <div class="hero__flag mt-3"></div>
+        </div>
+    </section>
+
+    <!-- A PROPOS -->
+
+    <section class="about p-4 py-5" id="about">
+        <div class="container text-center text-md-start ">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 p-3 about__text">
+                    <h2 class="mb-4">Notre société</h2>
+                    <p class="mb-0">Ut labore eiusmod dolore Lorem Lorem qui ullamco est. Officia cillum tempor elit
+                        mollit ad laboris esse voluptate est eiusmod do aliqua. Velit adipisicing anim mollit sunt
+                        occaecat. Incididunt ea magna labore et dolor deserunt anim Lorem occaecat tempor ad nulla eu.
+                        Veniam aliquip aliqua ut commodo tempor dolor laborum veniam ullamco in ad veniam nulla mollit.
+                        Qui laborum mollit amet voluptate dolore duis irure laboris esse voluptate nostrud nisi ad ad.
+                    </p>
+                    <a type="button" class="btn btn-danger d-inline-block my-4 rounded-pill">Nous contacter</a>
+                </div>
+                <div class="col-12 col-lg-6 p-3">
+                    <img src="/assets/about.webp" class="about__img" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUITS -->
+
+    <section class="produits p-5 py-6" id="produits">
+        <div class="container text-center py-4">
+            <h2>NOS PRODUITS</h2>
+            <div class="row align-items-center">
+                <div class="produit col-12 col-md-6 col-lg-3 p-3">
+                    <img src="/assets/volet.webp" class="produits__img p-3 rounded-circle" />
+                    <h3 class="mt-3">MENUISERIES</h3>
+                    <span>PVC La solution idéale pour la rénovation</span>
+                </div>
+                <div class="produit col-12 col-md-6 col-lg-3 p-3">
+                    <img src="/assets/alu.webp" class="produits__img p-3 rounded-circle" />
+                    <h3 class="mt-3">MENUISERIES ALU</h3>
+                    <span>Pour allier grandes dimensions et performances thermiques</span>
+                </div>
+                <div class="produit col-12 col-md-6 col-lg-3 p-3">
+                    <img src="/assets/store.webp" class="produits__img p-3 rounded-circle" />
+                    <h3 class="mt-3">STORES</h3>
+                    <span>Bien vivre sur sa terrasse</span>
+                </div>
+                <div class="produit col-12 col-md-6 col-lg-3 p-3">
+                    <img src="/assets/volet2.webp" class="produits__img p-3 rounded-circle" />
+                    <h3 class="mt-3">VOLETS ROULANTS</h3>
+                    <span>Isolation en sécurite complémentaire</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FABRICATION -->
+
+    <section class="parallax d-flex align-items-center justify-content-center text-center p-5" id="fabrications">
+        <article class="parallax__content p-5 d-flex flex-column align-items-center">
+            <h2 class="mb-2">TESTEZ NOS FABRICATIONS EN LIGNE</h2>
+            <span>En quelques clics laissez libre court à vos envies</span>
+            <a type="button" class="btn btn-danger d-block my-2 rounded-pill">Simuler vos menuiseries</a>
+        </article>
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section class="experience px-2 py-5">
+        <div class="container text-center text-md-start ">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 p-3">
+                    <img src="/assets/home.webp" class="experience__img" />
+                </div>
+                <div class="col-12 col-lg-6 p-5">
+                    <h2 class="text-uppercase">35 ans d'experience pour un service et des produits de qualité</h2>
+                    <span>Depuis maintenant plus de 35 ans, La Fabrique est à votre service en vous
+                        proposant une large gamme de produits :</span>
+                    <ul class="about__ul p-3">
+                        <li>Menuiserie PVC et Alu</li>
+                        <li>Stores et volets roulants</li>
+                        <li>Volets battants en alu</li>
+                        <li>Porte d’entrée Monobloc</li>
+                        <li>Pergola bioclimatique</li>
+                        <li>Porte de garage sectionnelle</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+
+    <section
+        class="parallax parallax--certification d-flex align-items-center justify-content-center text-center py-5 px-2">
+        <article class="parallax__content d-flex flex-column align-items-center p-4">
+            <h2 class="mb-5">NOS CERTIFICATIONS ET LABELS</h2>
+            <span>La fabrication sur mesure de tous nos produits est conforme aux Normes en vigueur et soumise à des
+                contrôles réguliers permettant de garantir une qualité et fiabilité optimum.</span>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="certification__img mb-4" src="/assets/cekal.webp" alt="">
+                    </div>
+                    <div class="col-sm">
+                        <img class="certification__img mb-4" src="/assets/profalis.webp" alt="">
+                    </div>
+                    <div class="col-sm">
+                        <img class="certification__img mb-4" src="/assets/qualibat.webp" alt="">
+                    </div>
+                    <div class="col-sm">
+                        <img class="certification__img mb-4" src="/assets/emission.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- POINTS DE VENTE -->
+
+    <section id="points" class="py-5 px-2">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 p-3">
+                    <img class="experience__img" src="/assets/devanture.webp" />
+                </div>
+                <div class="col-12 col-lg-6 p-5 text-center">
+                    <h2 class="mb-5">NOS POINTS DE VENTE</h2>
+                    <h4><img class="icon icon--place me-1" src="/assets/place.svg" alt="" width="30" height="24">Nantes
+                    </h4>
+                    <p class="ps-4">18 avenue Gaspard Monge<br />
+                        44109 Nantes<br />
+                        Atelier de fabrication et showroom<br />
+                        Lun - ven : 9h - 12h / 13h - 18h<br />
+                        04 50 89 60 32</p>
+                    <h4><img class="icon icon--place me-1" src="/assets/place.svg" alt="" width="30"
+                            height="24">Montpellier
+                    </h4>
+                    <p class="ps-4">2 avenue Edouard Millaud<br />
+                        34000 Montpellier<br />
+                        Magasin<br />
+                        Lun - ven : 9h - 12h / Après-midi sur RDV<br />
+                        04 50 10 22 56</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM -->
+
+    <section class="parallax parallax--contact p-5 text-center" id="contact">
+        <article class="parallax__content p-5
+        container">
+            <h2 class="mb-5">VOUS AVEZ UN PROJET ?</h2>
+            <form>
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-6 pb-3">
+                        <input type="text" class="form-control" placeholder="Prénom">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 pb-3">
+                        <input type="text" class="form-control" placeholder="Nom">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 pb-3">
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 pb-3">
+                        <input type="text" class="form-control" placeholder="Téléphone">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-6 pb-3">
+                        <input type="text" class="form-control" placeholder="Code Postal">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 pb-3">
+                        <input type="text" class="form-control" placeholder="Ville">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-6 pb-3">
+                        <input type="text" class="form-control" placeholder="Code Postal">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 pb-3">
+                        <input type="text" class="form-control" placeholder="Ville">
+                    </div>
+                </div>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                    placeholder="Message :"></textarea>
+                <button type="submit" class="btn btn-danger mt-3">Envoyer</button>
+            </form>
+        </article>
+    </section>
+
+    <!-- FOOTER-->
+
+    <footer class="bg-dark py-5 text-center">
+        <div class="d-flex justify-content-center mb-5 align-items-center">
+            <img class="footer__icon mx-3" src="/assets/facebook.svg" alt="" width="60" height="60">
+            <img class="footer__icon mx-3" src="/assets/instagram.svg" alt="" width="50" height="50">
+            <img class="footer__icon mx-3" src="/assets/twitter.svg" alt="" width="50" height="50">
+        </div>
+        <span class="text-white mt-5">&copy; Copyright 2022, Quentin. All Rights Reserved</span>
+
+    </footer>
+
+    <script>
+        ScrollReveal().reveal('.about__img', {
+            origin: 'right',
+            duration: 2300,
+            distance: '5px',
+            mobile: true,
+
+        });
+        ScrollReveal().reveal('.about__text', {
+            origin: 'left',
+            duration: 2300,
+            distance: '220px',
+        });
+        ScrollReveal().reveal('.produit', {
+            origin: 'bottom',
+            duration: 2300,
+            distance: '50px',
+        });
+        ScrollReveal().reveal('.certification__img', {
+            origin: 'bottom',
+            duration: 2300,
+            distance: '50px',
+        });
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
