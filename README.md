@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 
-Le jeu du pendu en vanilla javascript.
+Une landing page pour une entreprise d'artisanat construite avec Bootstrap V5.
 
 ## Démarrage
 
