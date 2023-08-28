@@ -1,6 +1,6 @@
 # Landing-Page-Bootstrap
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 Une landing page pour une entreprise d'artisanat construite avec Bootstrap V5.
 
